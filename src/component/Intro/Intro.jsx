@@ -11,7 +11,7 @@ import Floating from '../FloatingDive/Floating';
 import resume from './rejoanresume final.pdf';
 const Intro = () => {
       return (
-            <div className='intro' id='home'>
+            <div className='intro' id=''>
                   <div className="i-left">
                         <div className="i-name">
                               <span>Hy! I Am </span>
@@ -39,7 +39,7 @@ const Intro = () => {
                         <img src={Vector2} alt="" />
                         <img src={boy} alt="" />
                         <img style={{ top: '-10%', left: '-15%' }} src={glassesimoji} alt="" />
-                        <div style={{ top: '-4%', left: '68%' }}>
+                        <div style={{ top: '-4%', left: '68%' }} className='floating-div'>
                               <Floating img={crown} txt1='Web' txt2='Developer' />
                         </div>
                   </div>

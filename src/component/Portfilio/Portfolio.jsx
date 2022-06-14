@@ -26,7 +26,7 @@ const Portfolio = () => {
                         <SwiperSlide>
                               <img src={twelve} alt="" />
                         </SwiperSlide>
-                        <button className='button'></button>
+
                   </Swiper>
             </div>
       );

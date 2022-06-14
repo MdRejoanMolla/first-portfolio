@@ -6,14 +6,14 @@ import './Navbar.css';
 const Navbar = () => {
       return (
             <div className='navbar'>
-                  <div className="left">
+                  <div className="n-left">
                         <div className="name">Rejoan</div>
                         <Toggle />
                   </div>
                   <div className="right">
                         <div className="list">
                               <ul style={{ listStyle: 'none' }}>
-                                    <Link spy={true} to='navber' smooth={true} activeClass='activeClass'>
+                                    <Link spy={true} to='home' smooth={true} activeClass='activeClass'>
                                           <li>Home</li>
                                     </Link>
                                     <Link spy={true} to='service' smooth={true} >
@@ -31,7 +31,9 @@ const Navbar = () => {
 
                               </ul>
                         </div>
-                        <button className="button r-button">contact us</button>
+                        <a href="#contact">
+                              <button className="button r-button">contact us</button>
+                        </a>
                   </div>
             </div >
       );

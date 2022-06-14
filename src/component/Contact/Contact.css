@@ -5,8 +5,8 @@
       margin-top: 4rem;
 }
 
-/* 
-.i-left {
+
+.left {
       display: flex;
       position: relative;
       flex: 1;
@@ -14,22 +14,22 @@
       gap: 1rem;
 }
 
-.i-name {
+.awesome {
       display: flex;
       flex-direction: column;
 }
 
-.i-name>:nth-child(1) {
+.awesome>:nth-child(1) {
       color: var(--black);
       font-weight: bold;
       font-size: 3rem;
 }
 
-.i-name>:nth-child(2) {
+.awesome>:nth-child(2) {
       color: var(--orange);
       font-weight: bold;
       font-size: 3rem;
-} */
+}
 
 .c-right {
       display: flex;
@@ -62,5 +62,21 @@ textarea {
 .c-blurl {
       top: 1rem;
       left: 8rem;
+
+}
+
+@media screen and (max-width:480px) {
+      .contact-form {
+            flex-direction: column;
+            height: 40rem;
+            gap: 2rem;
+      }
+
+      .c-right {
+            transform: scale(.5);
+            left: -2rem;
+            bottom: 3rem;
+      }
+
 
 }

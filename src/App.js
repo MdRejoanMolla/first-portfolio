@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App"
       style={{ background: darkMode ? "black" : '', color: darkMode ? "white" : "" }}
+      id='home'
     >
 
       <Navbar></Navbar>

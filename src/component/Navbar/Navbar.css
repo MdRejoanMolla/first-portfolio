@@ -2,9 +2,10 @@
       height: 10vh;
       display: flex;
       justify-content: space-between;
+      top: sticky;
 }
 
-.left {
+.n-left {
       flex: 1;
       align-items: center;
       display: flex;
@@ -42,4 +43,10 @@
 
 .r-button {
       flex: 2;
+}
+
+@media screen and (max-width:480px) {
+      .list {
+            display: none;
+      }
 }
