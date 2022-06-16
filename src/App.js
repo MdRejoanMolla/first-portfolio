@@ -5,6 +5,7 @@ import Footer from './component/Footer/Footer';
 import Intro from './component/Intro/Intro';
 import Navbar from './component/Navbar/Navbar';
 import Portfolio from './component/Portfilio/Portfolio';
+import Service from './component/Service/Service';
 import { themeContext } from './context'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 
       <Navbar></Navbar>
       <Intro></Intro>
+      <Service></Service>
       <Portfolio></Portfolio>
       <Contact></Contact>
       <Footer></Footer>

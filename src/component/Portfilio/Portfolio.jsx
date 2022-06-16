@@ -9,8 +9,8 @@ import 'swiper/css';
 const Portfolio = () => {
       return (
             <div className='portfolio' id='portfolio'>
-                  <span>My Projects</span>
-                  <span>Portfolio</span>
+                  <span>My Recently</span>
+                  <span>Projects</span>
                   <Swiper
                         spaceBetween={10}
                         slidesPerView={3}
@@ -24,7 +24,9 @@ const Portfolio = () => {
                               <img src={seven} alt="" />
                         </SwiperSlide>
                         <SwiperSlide>
-                              <img src={twelve} alt="" />
+                              <a href="https://independent-service-a45e8.web.app/">
+                                    <img src={twelve} alt="" />
+                              </a>
                         </SwiperSlide>
 
                   </Swiper>
