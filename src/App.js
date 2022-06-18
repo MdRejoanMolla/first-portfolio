@@ -1,6 +1,8 @@
 import { useContext } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './component/About/About';
+import Blogs from './component/Blogs/Blogs';
 import Contact from './component/Contact/Contact';
 import Footer from './component/Footer/Footer';
 import Intro from './component/Intro/Intro';
@@ -19,9 +21,13 @@ function App() {
     >
 
       <Navbar></Navbar>
-      <Intro></Intro>
-      <About></About>
-      <Portfolio></Portfolio>
+      {/* <Intro></Intro> */}
+      <Routes>
+        <Route path="/home" element={<Intro />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/projects" element={<Portfolio />} />
+      </Routes>
       <Contact></Contact>
       <Footer></Footer>
     </div>

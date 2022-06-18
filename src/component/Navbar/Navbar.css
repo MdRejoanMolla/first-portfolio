@@ -23,10 +23,13 @@
       align-items: center;
       justify-content: center;
       font-weight: 400;
+
 }
 
 .list {
       flex: 8;
+      text-decoration: none;
+
 }
 
 .list>ul {
@@ -43,6 +46,18 @@
 
 .r-button {
       flex: 2;
+}
+
+.link:hover {
+      color: #d6720e;
+}
+
+.active-link {
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 30px;
+      transition: color ease-in-out 400ms;
+      color: #d6720e;
 }
 
 @media screen and (max-width:480px) {
