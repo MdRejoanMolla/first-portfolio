@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import './App.css';
+import About from './component/About/About';
 import Contact from './component/Contact/Contact';
 import Footer from './component/Footer/Footer';
 import Intro from './component/Intro/Intro';
@@ -19,7 +20,7 @@ function App() {
 
       <Navbar></Navbar>
       <Intro></Intro>
-      <Service></Service>
+      <About></About>
       <Portfolio></Portfolio>
       <Contact></Contact>
       <Footer></Footer>

@@ -18,10 +18,15 @@ const Portfolio = () => {
                         className='portfolio-slider'
                   >
                         <SwiperSlide className='swiper-slider'>
-                              <img src={six} alt="" />
+                              <a href="https://bicycle-hand.web.app/">
+                                    <img src={six} alt="" />
+
+                              </a>
                         </SwiperSlide>
                         <SwiperSlide className='swiper-slider'>
-                              <img src={seven} alt="" />
+                              <a href="https://keen-quokka-807717.netlify.app/">
+                                    <img src={seven} alt="" />
+                              </a>
                         </SwiperSlide>
                         <SwiperSlide>
                               <a href="https://independent-service-a45e8.web.app/">
