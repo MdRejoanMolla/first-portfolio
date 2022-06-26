@@ -23,6 +23,7 @@ function App() {
       <Navbar></Navbar>
       {/* <Intro></Intro> */}
       <Routes>
+        <Route path="/" element={<Intro />} />
         <Route path="/home" element={<Intro />} />
         <Route path="/about" element={<About />} />
         <Route path="/blogs" element={<Blogs />} />

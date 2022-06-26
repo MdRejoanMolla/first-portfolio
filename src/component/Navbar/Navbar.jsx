@@ -1,6 +1,5 @@
 import React from 'react';
 // import { Link } from 'react-scroll';
-import { NavLink, Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Toggle from '../Toggle/Toggle';
 import './Navbar.css';
@@ -9,7 +8,7 @@ const Navbar = () => {
       return (
             <div className='navbar'>
                   <div className="n-left">
-                        <div className="name">Rejoan</div>
+                        <Link to='/' className="name">Rejoan</Link>
                         <Toggle />
                   </div>
                   <div className="right">
